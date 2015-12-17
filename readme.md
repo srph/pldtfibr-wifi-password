@@ -1,4 +1,7 @@
 ## pldtfibr-wifi-password
+```bash
+npm install pldtfibr-wifi-password
+```
 A mac-address reverser to obtain the default password of a PLDTHOMEFIBR Wifi. An implementation of http://infotechmaestro.blogspot.com/2014/12/pldt-homefiber-and-pldt-home-dsl-new.html.
 
 ### Usage
