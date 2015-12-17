@@ -5,7 +5,7 @@
 var table = require('./table');
 var validate = require('./validate');
 
-module.exports = function revmac(entry) {
+module.exports = function password(entry) {
   validate(entry);
 
   var code = entry
