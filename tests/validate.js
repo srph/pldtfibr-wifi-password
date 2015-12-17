@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var validate = require('../validate');
+var validate = require('../src/validate');
 
 describe('validate', function() {
   it('should throw if code is not 6 characters', function() {

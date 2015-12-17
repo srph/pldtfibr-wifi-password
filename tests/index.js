@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var revmac = require('../index');
+var revmac = require('../src/index');
 
 var code = 'c5c4c9'; // A valid reversible address
 var result = '3a3b36';
