@@ -12,5 +12,6 @@
     "mocha": "^2.3.4"
   },
   "dependencies": {},
-  "description": "A mac-address reverser to obtain the default password of a PLDTHOMEFIBR Wifi. "
+  "description": "A mac-address reverser to obtain the default password of a PLDTHOMEFIBR Wifi. ",
+  "bin": "./bin/pldtfibr-wifi-password"
 }
