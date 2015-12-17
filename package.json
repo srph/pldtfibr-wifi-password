@@ -1,6 +1,6 @@
 {
-  "name": "revmac",
-  "version": "1.0.0",
+  "name": "pldtfibr-wifi-password",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests"
