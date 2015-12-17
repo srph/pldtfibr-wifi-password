@@ -1,4 +1,4 @@
-## pldtfibr-wifi-password
+## pldtfibr-wifi-password [![npm version](http://img.shields.io/npm/v/pldtfibr-wifi-password.svg?style=flat-square)](https://npmjs.org/package/pldtfibr-wifi-password?style=flat-square) [![Build Status](https://img.shields.io/travis/srph/pldtfibr-wifi-password.svg?style=flat-square)](https://travis-ci.org/srph/pldtfibr-wifi-password?branch=master)
 ```bash
 npm install pldtfibr-wifi-password
 ```
