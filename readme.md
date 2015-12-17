@@ -14,7 +14,7 @@ password('c5c4c9'); // 'wlan3a3b36'
 Requirements include Node.js (`>=0.12`) and npm `>=2.x`.
 ```
 npm install -g pldtfibr-wifi-password
-pldtfibr-wifi-password (code)
+pldtfibr-wifi-password c3c4c9 # the last 6 digits of the wifi name
 ```
 
 ### Tests
