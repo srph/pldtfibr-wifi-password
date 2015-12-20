@@ -1,6 +1,11 @@
 var table = require('./table');
 var VALID_REGEX = null;
 
+/**
+ * @param {string} code String to be validated (e.g., c3c4c9)
+ * @throws Error
+ * @return void
+ */
 module.exports = function validate(code) {
   // Previously, this assignment automatically ran when required.
   // Now, we'll just cache the values once ran.
