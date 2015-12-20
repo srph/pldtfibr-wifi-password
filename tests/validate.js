@@ -12,6 +12,10 @@ describe('validate', function() {
     expect(function() {
       validate('zzzzzzz');
     }).to.throw();
+
+    expect(function() {
+      validate('7fefx8');
+    }).to.throw();
   });
 
   it('should not throw if code is in the table', function() {
