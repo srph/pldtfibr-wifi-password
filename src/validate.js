@@ -12,6 +12,6 @@ module.exports = function validate(entry) {
   // 6 - The convention used by PLDT.
   // e.g., PLDTHOMEFIBR_c3c4c9 (the `c3c4c9`)
   if ( entry.length !== 6 || !VALID_REGEX.test(entry) ) {
-    throw new Error('Entry (' + entry + ') is invalid!');
+    throw new Error('Input ' + entry + ' is invalid!');
   }
 }
