@@ -5,8 +5,8 @@ module.exports = function validate(entry) {
   // Previously, this assignment automatically ran when required.
   // Now, we'll just cache the values once ran.
   if ( VALID_REGEX == null ) {
-    var codes = Object.keys(table).join('|');
-    VALID_REGEX = new RegExp(codes);
+    var codes = Object.keys(table).join('');
+    VALID_REGEX = new RegExp('^[' + codes + ']*$'); // ^[0123]*$
   }
 
   // 6 - The convention used by PLDT.
