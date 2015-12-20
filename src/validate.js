@@ -11,6 +11,7 @@ module.exports = function validate(code) {
   // Now, we'll just cache the values once ran.
   if ( VALID_REGEX == null ) {
     var codes = Object.keys(table).join('');
+    // http://stackoverflow.com/questions/1555810/regex-pattern-to-match-only-certain-characters
     VALID_REGEX = new RegExp('^[' + codes + ']*$'); // ^[0123]*$
   }
 
